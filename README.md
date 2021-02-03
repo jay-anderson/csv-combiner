@@ -6,7 +6,7 @@ Write a command line program that takes several CSV files as arguments. Each CSV
 
 
 Run the code using the following command.
-$ ./csv-combiner.php ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv
+$ ./csv-combiner.py ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv
 
 Code was tested using Ubuntu on a Windows OS. Features the following shebang line '#!/usr/bin/env python3'
 This should work regardless of the location that python is installed, but it may need to be altered if you're using an
